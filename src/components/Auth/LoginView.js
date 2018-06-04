@@ -47,7 +47,7 @@ class LoginView extends Component {
         />
         {this.renderError()}
         {this.renderSpinner()}
-        <Button onPress={() => logInUser({ email, password })}>Sign up</Button>
+        <Button onPress={() => logInUser({ email, password })}>Log In</Button>
       </View>
     );
   }
